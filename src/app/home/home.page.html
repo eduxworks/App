@@ -1,20 +1,69 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Blank
+      Bienvenidos Line7
     </ion-title>
   </ion-toolbar>
 </ion-header>
 
 <ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
-
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+   <ion-grid>
+    <ion-row>
+      <ion-col>
+        <ion-card>
+          <img src="assets/images/line7_app.jpg"/>
+          <ion-card-content>
+            <ion-card-title>
+              Line7
+            </ion-card-title>
+            <p>El mejor catalogo de ropa para damas caballeros y niños en tu SmartPhone</p>
+          </ion-card-content>
+        </ion-card>
+      </ion-col>
+    </ion-row>
+     <ion-row >
+       <ion-col align="center">
+         <h1>Catalogo de Ropa</h1>
+       </ion-col>
+     </ion-row>
+    <ion-row>
+      <ion-col>
+        <div>
+          <ion-button expand="full" fill="outline" size="large" routerLink="/cathombres">>> Caballeros <<</ion-button>
+        </div>
+      </ion-col>
+      <ion-col>
+        <div>
+          <ion-button expand="full" fill="outline" size="large" routerLink="/catmujeres">>> Damas <<</ion-button>
+        </div>
+      </ion-col>
+    </ion-row>
+     <ion-row>
+       <ion-col>
+         <div>
+           <ion-button expand="full" fill="outline" size="large" routerLink="/catninos">>> Niños <<</ion-button>
+         </div>
+       </ion-col>
+       <ion-col>
+         <div>
+           <ion-button expand="full" fill="outline" size="large" routerLink="/catninas">>> Niñas <<</ion-button>
+         </div>
+       </ion-col>
+     </ion-row>
+  </ion-grid>
 </ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-buttons collapse="true" align="center">
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-facebook"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-twitter"></ion-icon>
+      </ion-button>
+      <ion-button>
+        <ion-icon slot="icon-only" name="logo-whatsapp"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-footer>
